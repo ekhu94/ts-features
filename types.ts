@@ -1,6 +1,6 @@
 const today = new Date();
 const month = today.getMonth();
 
-class Dog {}
+// class Dog {}
 
-const axel = new Dog();
+// const axel = new Dog();
