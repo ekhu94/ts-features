@@ -21,3 +21,13 @@ let book: { title: string; publishDate: number; numPages: number } = {
   publishDate: 2013,
   numPages: 100,
 };
+
+// Function
+const printNumber: (i: number) => void = (i: number) => {
+  console.log(i);
+};
+
+// Annotating a function(method) that returns the ANY type
+const str = '{"name": "Lawnmower Dog", "episode": 2, "show": "Rick and Morty"}';
+const json: { name: string; episode: number; show: string } = JSON.parse(str);
+console.log(json);
