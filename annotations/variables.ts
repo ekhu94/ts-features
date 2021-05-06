@@ -23,8 +23,8 @@ let book: { title: string; publishDate: number; numPages: number } = {
 };
 
 // Function
-const printNumber: (i: number) => void = (i: number) => {
-  console.log(i);
+const printNumber = (n: number): void => {
+  console.log(n);
 };
 
 // Annotating a function(method) that returns the ANY type
